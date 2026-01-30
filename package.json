@@ -1,0 +1,31 @@
+{
+  "name": "@murich/alicloud-dm-cf-workers",
+  "version": "1.0.0",
+  "description": "Patch for @alicloud/dm20151123 to work with Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "keywords": [
+    "alicloud",
+    "aliyun",
+    "direct-mail",
+    "cloudflare",
+    "workers",
+    "edge",
+    "patch"
+  ],
+  "author": "murich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murich/alicloud-dm-cf-workers.git"
+  },
+  "peerDependencies": {
+    "@alicloud/dm20151123": "^1.8.3",
+    "patch-package": "^8.0.0"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  }
+}
