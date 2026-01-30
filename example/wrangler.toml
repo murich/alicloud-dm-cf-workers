@@ -1,0 +1,8 @@
+name = "alicloud-dm-example"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Set these as secrets:
+# wrangler secret put ALICLOUD_ACCESS_KEY_ID
+# wrangler secret put ALICLOUD_ACCESS_KEY_SECRET
